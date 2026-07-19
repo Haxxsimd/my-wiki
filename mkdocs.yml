@@ -1,7 +1,7 @@
 site_name: My Wiki
 site_url: https://Haxxsimd.github.io/my-wiki/
 repo_url: https://github.com/Haxxsimd/my-wiki
-edit_uri: blob/main/docs/
+edit_uri: blob/master/docs/
 
 theme:
   name: material
