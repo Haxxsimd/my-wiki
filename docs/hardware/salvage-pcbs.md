@@ -23,6 +23,11 @@ Found discarded, torn down for parts.
 - **Plan:** direct-solder repair.
 - **Status:** Repair planned, not yet done.
 
+## Broken Phone Screens
+
+Several devices in the [[phones-tablets]] queue have broken screens and are candidates for
+repurposing rather than repair. See that page for individual status and ideas.
+
 ---
 
 *Add new salvage/repair entries here as they come up — one subsection per item, with problem,
