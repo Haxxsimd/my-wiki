@@ -52,13 +52,6 @@ nav:
   - Getting Started:
     - How It Works: getting-started/setup.md
     - Adding Content: getting-started/workflow.md
-  - Hardware:
-    - Overview: hardware/index.md
-    - X79 Desktop: hardware/desktop-x79.md
-    - Debian Laptop: hardware/laptop-debian.md
-    - B550 Build: hardware/b550-build.md
-    - Phones & Tablets: hardware/phones-tablets.md
-    - Microcontrollers: hardware/microcontrollers.md
-    - Salvage & Repairs: hardware/salvage-pcbs.md
-    - E-Scooter: hardware/scooter.md
+  - Projects:
+    - Hobbyverksamhet: projects/hobbyverksamhet.md
   - Tags: tags.md

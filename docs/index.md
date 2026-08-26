@@ -11,6 +11,7 @@ Your personal knowledge base — notes, bookmarks, snippets, how-tos, and everyt
 ## Quick Links
 
 - [Hardware Inventory](hardware/index.md) — devices, specs, builds, repair logs
+- [Hobbyverksamhet](projects/hobbyverksamhet.md) — electronics/battery repair business planning
 - [How this wiki works](getting-started/setup.md) — tech, layout, editing
 - [Adding new content](getting-started/workflow.md) — the workflow
 - [Browse by tag](tags.md) — everything organized
