@@ -25,13 +25,20 @@ The original "Debian 13 laptop." Acer with 4GB DDR3 and a SATA SSD.
 
 ### Status
 
+Needs to be set up again (as of 2026-10-12). One of the laptops has a 256GB M.2 (Windows 10)
+and another a 500GB M.2 (contents unknown) that I plan to move to the [[desktop-x370|X370
+desktop]].
+
+Earlier setup (may need redoing):
+
 - SSH set up between this laptop and the [[desktop-x79|X79 desktop]].
 - Resolved a sudo privilege issue on the Debian side during initial setup.
-- Reachable remotely via Tailscale + Termius from iPhones.
+- Reachable remotely via Tailscale + Termius.
 
 ### Role in the Home Lab
 
-Candidate host (alongside the X79 desktop) for the planned Docker stack:
+Candidate host (alongside the X79 desktop) for the planned Docker stack (Jellyfin already runs
+on the X79; Pi-hole and the rest aren't set up yet):
 
 - Home Assistant
 - Frigate NVR
