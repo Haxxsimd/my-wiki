@@ -15,12 +15,18 @@ Currently used as a music player and for streaming TV shows.
 | Component | Details |
 |---|---|
 | TV | Panasonic 40" |
-| Audio | Soundbar + subwoofer |
+| Audio | Bluetooth soundbar + subwoofer |
+| Streaming | Chromecast |
 
 ### Connections
 
+- [[desktop-x79|X79 desktop]] (headless Debian 13) is connected via HDMI; Jellyfin runs on it.
 - [[laptops|ASUS headless laptop]] can connect via HDMI for a makeshift media center.
-- [[desktop-x79|X79 desktop]] via HDMI for big-screen gaming or media.
+- Chromecast for casting.
+
+### Plans
+
+- WoW Classic Plus on the big screen.
 
 ---
 
