@@ -8,7 +8,8 @@ tags:
 
 # X79 Desktop
 
-Primary daily driver, running CachyOS (Arch-based).
+Headless server running Debian 13, connected to the TV over HDMI. No longer the daily driver —
+that role moved to the [[desktop-x370|X370 desktop]].
 
 ## Specs
 
@@ -19,10 +20,15 @@ Primary daily driver, running CachyOS (Arch-based).
 | CPU | Intel Xeon E5-2680 v2 |
 | GPU | MSI GTX 1060 6GB Gaming X (secondhand, ~483 kr) |
 | RAM | 16GB DDR3 — mixed Corsair Dominator + Crucial Ballistix, running at 1333MHz (no XMP) |
-| Storage | Kingston 128GB SATA SSD + M.2 NVMe (harvested from [[laptops|Zenbook]], via PCIe adapter) |
-| OS | CachyOS (Arch-based) |
+| Storage | Kingston 128GB SATA SSD (OS) |
+| OS | Debian 13 (headless) |
 
 ## History
+
+- Moved the 500GB M.2 NVMe (Debian 13 drive, originally from the [[laptops|Zenbook]]) to the
+  [[desktop-x370|X370 desktop]]. Now boots Debian 13 from the 128GB SATA SSD, headless, HDMI to
+  the TV.
+- Previously ran CachyOS as the daily OS.
 
 - Installed the GTX 1060, resolving AMD→Nvidia driver conflicts; tuned settings for Escape from
   Tarkov and WoW Classic.
@@ -35,11 +41,12 @@ Primary daily driver, running CachyOS (Arch-based).
 
 ## Software / Tooling on This Machine
 
-- SSH linked to the [[laptops|Acer Debian laptop]].
-- Runs Claude Code (npm) routed through a local 9Router proxy (`localhost:20128`).
-- Minimal Python MCP server (`x79_status_server.py`) exposing GPU and system status as tools.
+- Jellyfin is running here.
+- Minimal Python MCP server (`x79_status_server.py`) exposing GPU and system status as tools
+  (carried over from the CachyOS install — verify it still exists).
 
 ## Planned
 
-- Candidate host for the home-lab Docker stack: Home Assistant, Frigate NVR, Pi-hole, Jellyfin.
-  Final host (this machine vs. the [[laptops|Acer Debian laptop]]) still TBD.
+- Rest of the home-lab Docker stack: Home Assistant, Frigate NVR, Pi-hole (not set up yet).
+  Final host for those (this machine vs. a laptop) still TBD — the laptops haven't been set up
+  again.

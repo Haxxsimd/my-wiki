@@ -15,8 +15,12 @@ Second build, not yet assembled.
 
 ## Waiting On
 
-- [ ] Ryzen 5600 CPU
-- [ ] DDR4 RAM
+- [ ] Ryzen 5600 CPU (still needed — the [[desktop-x370|X370 desktop]] covers daily use meanwhile)
+- [ ] DDR4 RAM (the 16GB Corsair DDR4 is currently in the X370)
+
+## Related
+
+- The EVGA 850W PSU is in the X370 for now and could move here.
 
 ## Open Questions
 
