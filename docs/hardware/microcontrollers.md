@@ -9,9 +9,11 @@ tags:
 
 # Microcontrollers & Tools
 
-## Arduino Uno R3 Clone
+## Arduino Uno R3 (Playknowlogy by Kjell & Company)
 
-Drives the ARGB fan lighting in the [[desktop-x79|Dutzo case]] on the X79 build.
+![Playknowlogy Uno R3](../assets/devices/arduino-playknowlogy-uno.jpg){ width="320" }
+
+Uno-compatible board with an ATmega328P and an ATmega16U2 as the USB chip. Drives the ARGB fan lighting in the [[desktop-x79|Dutzo case]] on the X79 build.
 
 | Setting | Value |
 |---|---|

@@ -122,7 +122,7 @@ situationen öppet och se vad som är möjligt.
 !!! note "X79 + Xeon E5-2680 v2"
     Kontrollera om moderkortet är kinesiskt (Huanan/Machinist/Jingsha) – då krävs
     DDR3 ECC REG (serverminne), inte vanlig DDR3. 8×4GB ECC REG kan kosta 150 kr
-    totalt begagnat. Se [[desktop-x79]] för nuvarande specs.
+    totalt begagnat. Se [[desktop-x370]] och [[desktop-x79]] för nuvarande specs.
 
 ## AliExpress 2026 — Så Funkar Det Nu
 
